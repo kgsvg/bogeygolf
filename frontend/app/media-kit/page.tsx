@@ -1,14 +1,15 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Bogey Kris – Golf Content Creator Media Kit',
-  description: 'Brand partnership one-pager for Bogey Kris, golf content creator on Instagram and TikTok.',
+  title: 'Kris for Bogey – Golf Content Creator Media Kit',
+  description: 'Brand partnership one-pager for Kris for Bogey, golf content creator on Instagram and TikTok.',
 };
 
 const stats = [
-  { value: '71k+', label: 'Campaign Views', sub: 'across IG & TikTok' },
-  { value: '51', label: 'Instagram', sub: 'followers & growing' },
-  { value: '38', label: 'TikTok', sub: 'followers & growing' },
+  { value: '12.6k', label: 'Instagram Views', sub: '@krisforbogey' },
+  { value: '62k', label: 'TikTok Views', sub: '@krisforbogey' },
+  { value: '146', label: 'Instagram', sub: 'followers & growing' },
+  { value: '105', label: 'TikTok', sub: 'followers & growing' },
 ];
 
 const services = [
@@ -59,8 +60,8 @@ export default function MediaKit() {
         <div className="relative z-10 max-w-3xl mx-auto">
           <p className="text-green-400 text-xs font-bold tracking-[0.25em] uppercase mb-6">Creator Media Kit · 2026</p>
           <h1 className="text-6xl md:text-8xl font-black tracking-tight mb-4 leading-none">
-            Bogey<br />
-            <span className="text-green-400">Kris</span>
+            Kris<br />
+            <span className="text-green-400">for Bogey</span>
           </h1>
           <p className="text-xl md:text-2xl text-neutral-300 max-w-lg mx-auto mt-6 mb-10 leading-relaxed font-light">
             Golf content for the 95% of golfers who will never break 80 — and are totally fine with that.
@@ -91,7 +92,11 @@ export default function MediaKit() {
             </a>
           </div>
 
-          <p className="text-neutral-600 text-xs mt-8">Instagram · TikTok</p>
+          <div className="flex justify-center gap-4 text-neutral-600 text-xs mt-8">
+            <a href="https://instagram.com/krisforbogey" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 transition-colors">Instagram</a>
+            <span>·</span>
+            <a href="https://www.tiktok.com/@krisforbogey" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 transition-colors">TikTok</a>
+          </div>
         </div>
 
         {/* Scroll hint */}
@@ -102,7 +107,7 @@ export default function MediaKit() {
 
       {/* Stats */}
       <section className="max-w-5xl mx-auto px-6 py-20">
-        <div className="grid grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {stats.map((s) => (
             <div key={s.label} className="relative group bg-neutral-900 border border-neutral-800 hover:border-green-400/30 rounded-2xl p-6 md:p-8 text-center transition-colors overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-green-400/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -125,7 +130,7 @@ export default function MediaKit() {
             I make golf content for real golfers — people grinding to improve, celebrating small wins, and laughing at the absurdity of this sport. Not the influencer who shoots 68 every round and swings in slow motion.
           </p>
           <p>
-            Recent satire content crossed <strong className="text-white">71k+ views</strong> across Instagram and TikTok, proving the demand for authentic, funny golf content is massive and underserved. Early channel, fast trajectory.
+            Recent satire content crossed <strong className="text-white">62k views on TikTok</strong> and <strong className="text-white">12.6k views on Instagram</strong>, proving the demand for authentic, funny golf content is massive and underserved. Early channel, fast trajectory.
           </p>
         </div>
       </section>
@@ -167,12 +172,12 @@ export default function MediaKit() {
             </div>
             <div className="flex gap-4 md:flex-col md:text-right shrink-0">
               <div>
-                <p className="text-3xl font-black text-green-400">71k+</p>
-                <p className="text-neutral-500 text-xs uppercase tracking-wide">Total Views</p>
+                <p className="text-3xl font-black text-green-400">62k</p>
+                <p className="text-neutral-500 text-xs uppercase tracking-wide">TikTok Views</p>
               </div>
               <div>
-                <p className="text-sm font-semibold text-white">IG + TikTok</p>
-                <p className="text-neutral-500 text-xs uppercase tracking-wide">Platform</p>
+                <p className="text-3xl font-black text-green-400">12.6k</p>
+                <p className="text-neutral-500 text-xs uppercase tracking-wide">Instagram Views</p>
               </div>
             </div>
           </div>
@@ -238,7 +243,11 @@ export default function MediaKit() {
       </section>
 
       <footer className="text-center text-neutral-800 text-xs py-8 border-t border-neutral-900">
-        © 2026 Bogey Kris · Golf Content Creator
+        <div className="flex justify-center gap-6 mb-3">
+          <a href="https://instagram.com/krisforbogey" target="_blank" rel="noopener noreferrer" className="text-neutral-600 hover:text-neutral-400 transition-colors">Instagram</a>
+          <a href="https://www.tiktok.com/@krisforbogey" target="_blank" rel="noopener noreferrer" className="text-neutral-600 hover:text-neutral-400 transition-colors">TikTok</a>
+        </div>
+        © 2026 Kris for Bogey · Golf Content Creator
       </footer>
     </main>
   );
