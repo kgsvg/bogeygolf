@@ -108,7 +108,7 @@ export default function Home() {
 
           <div className="flex flex-wrap justify-center gap-3">
             <a
-              href="mailto:kris@bogeygolf.club"
+              href="mailto:hello@krisforbogey.com"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 active:scale-95 text-black font-bold px-8 py-4 rounded-full text-sm tracking-wide transition-all"
             >
               Get in Touch
@@ -311,12 +311,12 @@ export default function Home() {
             Early-stage pricing. High engagement. Authentic audience. Let's build something that works for both of us.
           </p>
           <a
-            href="mailto:kris@bogeygolf.club"
+            href="mailto:hello@krisforbogey.com"
             className="inline-block bg-green-500 hover:bg-green-400 active:scale-95 text-black font-bold px-12 py-4 rounded-full text-base tracking-wide transition-all shadow-lg shadow-green-500/20"
           >
             Get in Touch
           </a>
-          <p className="text-neutral-600 text-sm mt-6">kris@bogeygolf.club</p>
+          <p className="text-neutral-600 text-sm mt-6">hello@krisforbogey.com</p>
         </div>
       </section>
 
