@@ -1,0 +1,33 @@
+{
+  "combinedFollowers": "1.5k",
+  "instagram": {
+    "handle": "@krisforbogey",
+    "url": "https://instagram.com/krisforbogey",
+    "views": "14.8k",
+    "uniqueViewers": "8.1k",
+    "nonFollowerViewsPct": 80.1,
+    "interactions": 482,
+    "engagedAccounts": 201,
+    "followerGrowth": { "pct": 45.3, "since": "Aug 12, 2026" },
+    "bestPost": { "views": "6.7k" }
+  },
+  "tiktok": {
+    "handle": "@krisforbogey",
+    "url": "https://www.tiktok.com/@krisforbogey",
+    "views": "100.1k",
+    "period": "Jul 22 – Oct 22, 2026",
+    "viewsGrowthPct": 27.4,
+    "likes": "2.2k",
+    "comments": 352,
+    "shares": 175,
+    "bestPost": { "views": "29k", "likes": 864, "comments": 142, "shares": 27 },
+    "audience": {
+      "gender": { "male": 86, "female": 13 },
+      "age": { "18-24": 24.4, "25-34": 37.6, "35-44": 18.4, "45-54": 11.2, "55+": 8.4 },
+      "locations": { "Canada": 84, "USA": 7.3 }
+    }
+  },
+  "youtube": {
+    "subscribers": null
+  }
+}

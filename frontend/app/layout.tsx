@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bogey Golf Club — Built for Golf Creators",
-  description: "The all-in-one platform for social media golf creators. Manage brand deals, UGC content, custom email domain, link-in-bio, and analytics.",
+  title: "Kris for Bogey - Golf Content Creator Media Kit",
+  description: "Brand partnership one-pager for Kris for Bogey, golf content creator on Instagram and TikTok.",
 };
 
 export default function RootLayout({

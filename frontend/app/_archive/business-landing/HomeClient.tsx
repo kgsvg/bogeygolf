@@ -6,7 +6,7 @@ const features = [
   {
     icon: '🤝',
     title: 'Brand Deal Management',
-    desc: 'Track every partnership in one place — deliverables, deadlines, payments, and contracts. Never lose a brand deal detail again.',
+    desc: 'Track every partnership in one place - deliverables, deadlines, payments, and contracts. Never lose a brand deal detail again.',
   },
   {
     icon: '🎬',
@@ -16,12 +16,12 @@ const features = [
   {
     icon: '✉️',
     title: 'Custom Email Domain',
-    desc: 'Send and receive email as yourname@yourbrand.com. Look professional from day one — no more Gmail in the pitch deck.',
+    desc: 'Send and receive email as yourname@yourbrand.com. Look professional from day one - no more Gmail in the pitch deck.',
   },
   {
     icon: '🔗',
     title: 'Link in Bio Pages',
-    desc: 'A stunning, branded link page for your socials — with built-in analytics so you know exactly what your audience clicks.',
+    desc: 'A stunning, branded link page for your socials - with built-in analytics so you know exactly what your audience clicks.',
   },
   {
     icon: '📊',
@@ -31,18 +31,18 @@ const features = [
   {
     icon: '💬',
     title: 'Creator Communications',
-    desc: 'Keep brand conversations organised with a dedicated inbox — separate from your personal DMs and always on the record.',
+    desc: 'Keep brand conversations organised with a dedicated inbox - separate from your personal DMs and always on the record.',
   },
 ];
 
 const faqs = [
   {
     q: 'What is Bogey Golf Club?',
-    a: 'Bogey Golf Club is an all-in-one business platform built specifically for social media golf creators. It brings together brand deal management, UGC content delivery, a custom email domain, a link-in-bio page with analytics, and a creator communications inbox — everything you need to run your golf brand professionally.',
+    a: 'Bogey Golf Club is an all-in-one business platform built specifically for social media golf creators. It brings together brand deal management, UGC content delivery, a custom email domain, a link-in-bio page with analytics, and a creator communications inbox - everything you need to run your golf brand professionally.',
   },
   {
     q: 'Who is Bogey Golf Club for?',
-    a: 'It\'s built for golf content creators on Instagram, TikTok, and YouTube — whether you\'re just starting to land your first brand deals or you\'re already juggling multiple partnerships and need a better system. If you\'re making golf content and want to treat it like a real business, this is for you.',
+    a: 'It\'s built for golf content creators on Instagram, TikTok, and YouTube - whether you\'re just starting to land your first brand deals or you\'re already juggling multiple partnerships and need a better system. If you\'re making golf content and want to treat it like a real business, this is for you.',
   },
   {
     q: 'How does brand deal management work?',
@@ -50,11 +50,11 @@ const faqs = [
   },
   {
     q: 'What is a custom email domain for creators?',
-    a: 'Instead of pitching brands from a Gmail address, you\'ll send emails from yourname@yourbrand.com. It signals professionalism and helps brands take you seriously — especially when you\'re cold-pitching or responding to inbound enquiries.',
+    a: 'Instead of pitching brands from a Gmail address, you\'ll send emails from yourname@yourbrand.com. It signals professionalism and helps brands take you seriously - especially when you\'re cold-pitching or responding to inbound enquiries.',
   },
   {
     q: 'What\'s included in the link-in-bio page?',
-    a: 'Your link page is a branded, mobile-optimised page you can link to from any social profile. Add links to your content, brand work, affiliate codes, and more — plus built-in analytics show you click-through rates for every link so you know what your audience actually engages with.',
+    a: 'Your link page is a branded, mobile-optimised page you can link to from any social profile. Add links to your content, brand work, affiliate codes, and more - plus built-in analytics show you click-through rates for every link so you know what your audience actually engages with.',
   },
   {
     q: 'When is Bogey Golf Club launching?',
@@ -116,7 +116,7 @@ export default function HomeClient() {
             <span className="text-green-400">like a business.</span>
           </h1>
           <p className="text-lg md:text-xl text-neutral-400 max-w-2xl mx-auto leading-relaxed mb-10">
-            Bogey Golf Club is the all-in-one platform for social media golf creators. Manage brand partnerships, UGC content, and creator communications — plus your own custom email domain and link-in-bio page with analytics.
+            Bogey Golf Club is the all-in-one platform for social media golf creators. Manage brand partnerships, UGC content, and creator communications - plus your own custom email domain and link-in-bio page with analytics.
           </p>
           <a
             href="#waitlist"
@@ -136,11 +136,11 @@ export default function HomeClient() {
       <section className="max-w-4xl mx-auto px-6 pb-24 text-center">
         <h2 className="text-2xl md:text-3xl font-extrabold mb-4">Built for the golf creator economy</h2>
         <p className="text-neutral-400 max-w-2xl mx-auto leading-relaxed mb-10">
-          Whether you're a golf TikToker landing your first brand deal, an Instagram golf creator growing an audience, or a YouTube golf channel building a media business — Bogey Golf Club gives you the infrastructure to operate like a professional.
+          Whether you're a golf TikToker landing your first brand deal, an Instagram golf creator growing an audience, or a YouTube golf channel building a media business - Bogey Golf Club gives you the infrastructure to operate like a professional.
         </p>
         <div className="grid sm:grid-cols-3 gap-6 text-left">
           {[
-            { label: 'Golf TikTokers & Reels creators', desc: 'Pitch brands with a professional email, deliver UGC, and track your link-in-bio clicks — all in one place.' },
+            { label: 'Golf TikTokers & Reels creators', desc: 'Pitch brands with a professional email, deliver UGC, and track your link-in-bio clicks - all in one place.' },
             { label: 'Instagram golf influencers', desc: 'Manage inbound brand enquiries without losing track. Keep every deal organised from first DM to payment.' },
             { label: 'YouTube golf content creators', desc: 'Handle affiliate partnerships, sponsored content, and brand communications with a system built for how you actually work.' },
           ].map((item) => (
@@ -179,7 +179,7 @@ export default function HomeClient() {
         <div className="max-w-4xl mx-auto text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-4">Your whole golf brand in one place</h2>
           <p className="text-neutral-400 max-w-xl mx-auto">
-            From the first brand email to final content delivery — Bogey Golf Club handles the business side so you can focus on creating golf content.
+            From the first brand email to final content delivery - Bogey Golf Club handles the business side so you can focus on creating golf content.
           </p>
         </div>
         <div className="max-w-3xl mx-auto grid md:grid-cols-3 gap-8 text-center">
@@ -217,7 +217,7 @@ export default function HomeClient() {
       <section id="waitlist" className="max-w-2xl mx-auto px-6 py-24 text-center">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Get early access</h2>
         <p className="text-neutral-400 text-lg mb-10">
-          We're building this for golf creators — join the waitlist and be first in the door when we launch.
+          We're building this for golf creators - join the waitlist and be first in the door when we launch.
         </p>
 
         {status === 'success' ? (
@@ -248,7 +248,7 @@ export default function HomeClient() {
         )}
 
         {status === 'duplicate' && (
-          <p className="text-neutral-500 text-sm mt-4">That email is already on the waitlist — you're all set!</p>
+          <p className="text-neutral-500 text-sm mt-4">That email is already on the waitlist - you're all set!</p>
         )}
         {status === 'error' && (
           <p className="text-red-400 text-sm mt-4">Something went wrong. Please try again.</p>
