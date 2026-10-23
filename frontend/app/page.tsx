@@ -238,6 +238,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Featured Videos */}
+      <section className="max-w-5xl mx-auto px-6 pb-20">
+        <p className="text-green-400 text-xs font-bold tracking-[0.2em] uppercase mb-4">Featured Videos</p>
+        <h2 className="text-3xl font-extrabold mb-8">See the content</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {instagram.featuredReels.map((code) => (
+            <div key={code} className="bg-white rounded-2xl overflow-hidden border border-neutral-800 max-w-[400px] w-full mx-auto">
+              <iframe
+                src={`https://www.instagram.com/reel/${code}/embed`}
+                title={`Kris for Bogey on Instagram (${code})`}
+                className="w-full h-[640px] border-0"
+                loading="lazy"
+                allowFullScreen
+              />
+            </div>
+          ))}
+        </div>
+        <p className="text-center mt-8">
+          <a href={instagram.url} target="_blank" rel="noopener noreferrer" className="text-sm text-neutral-400 hover:text-green-400 transition-colors">
+            More on Instagram & TikTok →
+          </a>
+        </p>
+      </section>
+
       {/* Services */}
       <section id="services" className="bg-neutral-900/40 border-y border-neutral-800 py-20 px-6">
         <div className="max-w-5xl mx-auto">
