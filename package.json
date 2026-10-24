@@ -14,5 +14,8 @@
     "start": "npm run start:frontend & npm run start:backend",
     "nginx:install": "sudo cp nginx/bogeygolf.conf /etc/nginx/sites-available/bogeygolf && sudo ln -sf /etc/nginx/sites-available/bogeygolf /etc/nginx/sites-enabled/bogeygolf && sudo nginx -t && sudo systemctl reload nginx",
     "nginx:reload": "sudo nginx -t && sudo systemctl reload nginx"
+  },
+  "engines": {
+    "node": ">=26"
   }
 }
